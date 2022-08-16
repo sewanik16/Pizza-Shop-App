@@ -5,7 +5,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Policy from "./components/Policy";
 import NavBar from "./components/NavBar";
-// import HomeScreen from "./screens/HomeScreen";
+import HomeScreen from "./screens/HomeScreen";
 // import CartScreen from "./screens/CartScreen";
 // import Registe from "./screens/Registe";
 // import Login from "./screens/Login";
@@ -26,7 +26,7 @@ function App() {
         <Route path="/about" component={About} exact />
         <Route path="/contact" component={Contact} exact />
         <Route path="/policy" component={Policy} exact />
-        {/* <Route path="/" component={HomeScreen} /> */}
+        <Route path="/" component={HomeScreen} />
       </Switch> 
     </BrowserRouter>
   );
